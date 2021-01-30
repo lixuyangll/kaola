@@ -1,0 +1,341 @@
+#head{
+    width: 100%;
+    height: 100px;
+}
+.head-con{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-con .headbox{
+    margin-right: 50px;
+}
+#banner{
+    width: 100%;
+    height: 600px;
+    background: #F8F8F8;
+}
+.banner-con{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-con .original{
+    display: inline-block;
+    margin-right: 50px;
+    width: 400px;
+    height: 360px;
+}
+.original .originalimg{
+    transform: translateY(70px);
+}
+.logbox{
+   margin-right: 50px;
+   margin-top: -60px;
+}
+.logbox .logboxtop{
+    width: 350px;
+    height: 287px;
+    position: relative;
+    border-top: 1px solid #efefef;
+    background: #fff;
+}
+.logbox section{
+    width: 350px;
+    height: 42px;
+    background: #fff;
+}
+.logboxtop1{
+    width: 350px;
+    height: 64px;
+}
+.logboxtop2{
+    width: 270px;
+    height: 195px;
+    margin: 0 auto;
+}
+.logboxtop2-phone{
+    width: 270px;
+    height: 195px;
+    margin: 0 auto;
+    display: none;
+}
+.logcode{
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 40px;
+    color: #ff9000;
+    width: 64px;
+    height: 64px;
+    text-indent: -99999px;
+    background-size: contain;/* 此时会保持图像的纵横比并将图像缩放成将适合背景定位区域的最大大小。 */
+    background: url(../images/logsaoma.png) no-repeat;
+}
+.logcode::before{
+    content: "";
+    display: inline-block;
+    background: url(../images/logsao.png) no-repeat;
+    background-size: contain;
+    width: 84px;
+    height: 18px;
+    position: absolute;
+    top: 5px;
+    right: 69px;
+}
+.logboxtop1 .logboxtop-text{
+    width: 350px;
+    height: 18px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    line-height: 18px;
+    font-weight: 700;
+    transform: translateY(40px);
+}
+.mimadenglu{
+    width: 109px;
+    margin-bottom: 8px;
+    margin-left: 215px;
+    font-size: 12px;
+    color: #666;
+    cursor: pointer;
+}
+.mimadenglu:hover{
+    color: red;
+}
+.phoneinput{
+    width: 270px;
+    height: 36px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.phonenumber{
+    width: 270px;
+    height: 36px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.phoneinput>input{
+    width: 270px;
+    height: 36px;
+    border-radius: 18px;
+    border: 1px solid #d5d5d5;
+    text-indent: 35px;
+}
+.phonenumber>input{
+    width: 270px;
+    height: 36px;
+    border-radius: 18px;
+    border: 1px solid #d5d5d5;
+    text-indent: 35px;
+}
+.phoneinput::before{
+    content: "";
+    background: url(../images/logxuebi.png) no-repeat -36px -34px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+.phonenumber::before{
+    content: "";
+    background: url(../images/logxuebi.png) no-repeat -36px -34px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+.verification{
+    width: 270px;
+    height: 36px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.password{
+    width: 270px;
+    height: 36px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.verification::before{
+    content: "";
+    background: url(../images/logxuebi.png) no-repeat -35px -12px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+.password::before{
+    content: "";
+    background: url(../images/logxuebi.png) no-repeat -35px -12px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+.logboxtop2 .huoqu{
+    width: 81px;
+    height: 24px;
+    border-left: 1px solid #d5d5d5;
+    position: absolute;
+    right: 35px;
+    top: 145px;
+    text-align: center;
+    z-index: 1;
+}
+.logboxtop2 .huoqu a{
+    line-height: 24px;
+    font-size: 12px;
+    color: #000;
+}
+.logboxtop2 .huoqu a:hover{
+    color: red;
+}
+.verification>input{
+    width: 270px;
+    height: 36px;
+    border-radius: 18px;
+    border: 1px solid #d5d5d5;
+    text-indent: 35px;
+}
+.password>input{
+    width: 270px;
+    height: 36px;
+    border-radius: 18px;
+    border: 1px solid #d5d5d5;
+    text-indent: 35px;
+}
+::-webkit-input-placeholder{
+    color: #ccc;
+}
+.denglu{
+    width: 270px;
+    height: 36px;
+    border-radius: 18px;
+    line-height: 36px;
+    background: red;
+    margin-bottom: 15px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+}
+.zhuce{
+    font-size: 13px;
+    color: #999;
+    text-align: center;
+}
+.zhuce a{
+    font-size: 12px;
+    color: #999;
+    text-decoration: underline;
+}
+.tubiao{
+    padding: 10px 40px;
+    width: 350px;
+    height: 42px;
+    font-size: 14px;
+    border-top: 1px solid #efefef;
+    box-sizing: border-box;
+}
+.tubiao ul{
+    width: 350px;
+    height: 42px;
+    transform: translateX(60px)
+}
+.tubiao ul li{
+    float: left;
+}
+.tubiao ul li:nth-child(1) a{
+    width: 30px;
+    height: 23px;
+    display: inline-block;
+    background: url(../images/logtubiao.png) no-repeat 3px 0;
+    background-size: cover;/* 此时会保持图像的纵横比并将图像缩放成将完全覆盖背景定位区域的最小大小。 */
+}
+.tubiao ul li:nth-child(2) a{
+    width: 30px;
+    height: 23px;
+    display: inline-block;
+    background: url(../images/logtubiao.png) no-repeat -31px 0;
+    background-size: cover;/* 此时会保持图像的纵横比并将图像缩放成将完全覆盖背景定位区域的最小大小。 */
+}
+.tubiao ul li:nth-child(3) a{
+    width: 30px;
+    height: 23px;
+    display: inline-block;
+    background: url(../images/logtubiao.png) no-repeat -65px 0;
+    background-size: cover;/* 此时会保持图像的纵横比并将图像缩放成将完全覆盖背景定位区域的最小大小。 */
+}
+.tubiao ul li:nth-child(4) a{
+    width: 30px;
+    height: 23px;
+    display: inline-block;
+    background: url(../images/logtubiao.png) no-repeat -99px 0;
+    background-size: cover;/* 此时会保持图像的纵横比并将图像缩放成将完全覆盖背景定位区域的最小大小。 */
+}
+.tubiao ul li:nth-child(5) a{
+    width: 30px;
+    height: 23px;
+    display: inline-block;
+    background: url(../images/logtubiao.png) no-repeat -133px 0;
+    background-size: cover;/* 此时会保持图像的纵横比并将图像缩放成将完全覆盖背景定位区域的最小大小。 */
+}
+#foot{
+    width: 100%;
+    height: 154px;
+}
+.foot-con{
+    width: 1000px;
+    height: 154px;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+}
+.foot-con span{
+    font-size: 12px;
+    color: #666;
+    margin-left: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+.foot-con span img{
+    display: inline-block
+}
+.foot-con p{
+    text-align: center;
+    margin-top: 10px;
+}
+.foot-con p img{
+    display: inline-block;
+    height: 35px;
+}
+.foot-con a{
+    font-size: 12px;
+    color: #666;
+    line-height: 26px;
+    text-align: center;
+}
+.logboxtop .registered{
+    /* display: inline-block; */
+    position: absolute;
+    right: 5px;
+    bottom: 28.5px;
+}
+.registered a{
+    font-size: 12px;
+    color: #666;
+}
